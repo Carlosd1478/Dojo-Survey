@@ -4,9 +4,22 @@
 }
 
 .container {
-    width: 500px;
-    height: 700px;
+    /* width: 100px; */
+    min-height: 500px;
     background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
+    margin-top: 50px;
     outline: 5px solid red;
+    flex-direction: column;
+}
+
+.student_section {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
 }
