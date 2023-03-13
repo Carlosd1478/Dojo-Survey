@@ -4,8 +4,8 @@
 }
 
 .container {
-    /* width: 100px; */
     min-height: 500px;
+    width: 300px;
     background-color: blue;
     display: flex;
     justify-content: center;
